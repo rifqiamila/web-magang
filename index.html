@@ -5,62 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kocheng</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="heading">
-        <h1>Kucing</h1>
+    <header>
+        <div class="heading">
+            <h1>Kucing: Hewan Lucu dan Menggemaskan</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#deskripsi">Tentang Kucing</a></li>
+                <li><a href="#etimologi">Etimologi</a></li>
+                <li><a href="#jenis">Jenis Kucing</a></li>
+                <li><a href="#form">Berikan Pendapat Anda</a></li>
+                <li><a href="#tabel">Tabel Kucing</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Heading 2 -->
     <main>
-        <article>
-            <br>
-            <img src="image/kocheng.webp" alt="gambar kucing" style="width: 70vw"> <!-- view wide -->
-            <br>
-            <p class="deskripsi">Deskripsi singkat kucing</p>
-            <p>Kucing, disebut juga sebagai kucing domestik[4][5] atau kucing rumah (nama ilmiah: Felis silvestris catus atau Felis catus), adalah sejenis mamalia karnivora dari keluarga Felidae. Kata "kucing" biasanya merujuk kepada "kucing" yang telah dijinakkan,[6] tetapi bisa juga merujuk kepada "kucing besar" seperti singa dan harimau yang juga termasuk jenis kucing.</p> <!-- Alt + z-->
-            <p>Kucing telah berbaur dengan kehidupan manusia paling tidak sejak 5.000 tahun sebelum masehi, hal ini dibuktikan dengan penemuan kerangka kucing di Pulau Siprus.[7] Sejak zaman 3.500 sebelum masehi, orang Mesir Kuno telah menggunakan kucing untuk menjauhkan tikus atau hewan pengerat lain dari lumbung yang menyimpan hasil panen.[8]</p>
-            <p>Saat ini, kucing adalah salah satu hewan peliharaan terpopuler di dunia.[9] Kucing yang garis keturunannya tercatat secara resmi sebagai kucing trah atau galur murni (pure breed) contohnya persia, siam, manx, dan sphinx. Kucing seperti ini biasanya dibiakkan di tempat pemeliharaan hewan resmi. Jumlah kucing ras hanyalah 1% dari seluruh kucing di dunia, sisanya adalah kucing dengan keturunan campuran, seperti kucing liar atau kucing kampung. Kucing juga merupakan jenis hewan peliharaan yang banyak diminati karena tingkah lakunya yang lucu dan menggemaskan.</p>
-        </article>
-        
-        <article>
-            <h2>Etimologi Kucing</h2>
-                <p>Kata "kucing" dalam bahasa Indonesia berasal dari, "kucing" Melayu, dari "kucing" Melayu Klasik, dari Proto-Melayu-Polinesia (Barat) *kutíŋ.</p>
+        <!-- Artikel Deskripsi -->
+        <article id="deskripsi">
+            <h2>Tentang Kucing</h2>
+            <figure>
+                <img src="image/kocheng.webp" alt="Gambar kucing lucu" class="gambar-utama">
+                <figcaption>Gambar kucing lucu yang menggemaskan</figcaption>
+            </figure>
+            <p>
+                Kucing (Felis catus) adalah mamalia kecil yang menjadi salah satu hewan peliharaan paling populer di dunia. Kucing dikenal karena sifatnya yang lucu, bersahabat, dan kadang mandiri. Mereka sering dijadikan teman manusia karena tingkah laku mereka yang menghibur.
+            </p>
         </article>
 
-        <article>
-            <h2>Jenis-jenis kucing</h2>
+        <!-- Artikel Etimologi -->
+        <article id="etimologi">
+            <h2>Etimologi Kata "Kucing"</h2>
+            <p>
+                Kata "kucing" berasal dari Bahasa Melayu Klasik yang berarti hewan peliharaan yang lucu dan jinak. Dalam banyak bahasa, nama kucing memiliki akar kata yang mirip, seperti "cat" dalam bahasa Inggris dan "chat" dalam bahasa Prancis.
+            </p>
+        </article>
+
+        <!-- Artikel Jenis Kucing -->
+        <article id="jenis">
+            <h2>Jenis-Jenis Kucing</h2>
             <ul>
-                <li>Kucing British <br>
-                    <a href="https://shopee.co.id/list/Kucing/British">beli kucing british</a> <br>
-                    <img src="image/kucing_british.jpg" alt="kucing british" style="width: 40vw">
+                <li>
+                    <h3>Kucing British Shorthair</h3>
+                    <p>British Shorthair memiliki tubuh yang besar, bulu pendek yang lebat, dan wajah bulat yang khas. Kucing ini sangat ramah dan cocok untuk keluarga.</p>
+                    <a href="https://shopee.co.id/list/Kucing/British" target="_blank">Beli Kucing British</a>
+                    <a href="https://shopee.co.id/list/Kucing/British" target="_blank">
+                        <img src="image/kucing_british.jpg" alt="Kucing British Shorthair" class="image-jenis">
+                    </a>
                 </li>
-                <li>Kucing Domestik <br>
-                    <a href="https://shopee.co.id/list/Kucing/Domestik">beli kucing domestik</a> <br>
-                    <img src="image/kucing_domestik.jpg" alt="kucing domestik" style="width: 40vw">
+                <li>
+                    <h3>Kucing Domestik</h3>
+                    <p>Kucing domestik adalah kucing yang paling umum ditemukan di rumah tangga. Mereka cerdas, mudah beradaptasi, dan sering sangat menyayangi pemiliknya.</p>
+                    <a href="https://shopee.co.id/list/Kucing/Domestik" target="_blank">Beli Kucing Domestik</a>
+                    <a href="https://shopee.co.id/list/Kucing/Domestik" target="_blank">
+                        <img src="image/kucing_domestik.jpg" alt="Kucing Domestik" class="image-jenis">
+                    </a>
                 </li>
-                <li>Kucing Munchkin <br>
-                    <a href="https://shopee.co.id/list/Kucing/Munchkin">beli kucing munchkin</a> <br>
-                    <img src="image/kucing_munchkin.jpg" alt="kucing munchkin" style="width: 40vw">
+                <li>
+                    <h3>Kucing Munchkin</h3>
+                    <p>Kucing Munchkin terkenal karena kakinya yang pendek, memberikan mereka tampilan lucu dan menggemaskan. Mereka aktif dan suka bermain.</p>
+                    <a href="https://shopee.co.id/list/Kucing/Munchkin" target="_blank">Beli Kucing Munchkin</a>
+                    <a href="https://shopee.co.id/list/Kucing/Munchkin" target="_blank">
+                        <img src="image/kucing_munchkin.jpg" alt="Kucing Munchkin" class="image-jenis">
+                    </a>
                 </li>
-                <li>Kucing Persia <br>
-                    <a href="https://shopee.co.id/list/Kucing/Persia">beli kucing persia</a> <br>
-                    <img src="image/kucing_persia.jpg" alt="kucing persia" style="width: 40vw">
+                <li>
+                    <h3>Kucing Persia</h3>
+                    <p>Kucing Persia adalah ras kucing yang dikenal dengan wajah datar dan bulu panjang yang lebat. Mereka adalah hewan peliharaan yang sangat manja dan tenang.</p>
+                    <a href="https://shopee.co.id/list/Kucing/Persia" target="_blank">Beli Kucing Persia</a>
+                    <a href="https://shopee.co.id/list/Kucing/Persia" target="_blank">
+                        <img src="image/kucing_persia.jpg" alt="Kucing Persia" class="image-jenis">
+                    </a>
                 </li>
-                <li>Kucing Sphynx <br>
-                    <a href="https://shopee.co.id/list/Kucing/Sphynx">beli kucing sphynx</a> <br>
-                    <img src="image/kucing_sphynx.jpg" alt="kucing sphynx" style="width: 40vw">
+                <li>
+                    <h3>Kucing Sphynx</h3>
+                    <p>Kucing Sphynx adalah ras tanpa bulu dengan kulit yang licin. Meskipun mereka tidak berbulu, mereka sangat hangat dan bersahabat.</p>
+                    <a href="https://shopee.co.id/list/Kucing/Sphynx" target="_blank">Beli Kucing Sphynx</a>
+                    <a href="https://shopee.co.id/list/Kucing/Sphynx" target="_blank">
+                        <img src="image/kucing_sphynx.jpg" alt="Kucing Sphynx" class="image-jenis">
+                    </a>
                 </li>
             </ul>
         </article>
 
-        <table>
-            <tr></tr>
-        </table>
+        <!-- Tabel Kucing -->
+        <article id="tabel">
+            <h2>Tabel Kucing</h2>
+            <table>
+                <tr>
+                    <th>Jenis Kucing</th>
+                    <th>Ciri Khas</th>
+                    <th>Harga (IDR)</th>
+                </tr>
+                <tr>
+                    <td>British Shorthair</td>
+                    <td>Bulatan wajah, bulu pendek tebal</td>
+                    <td>Rp 3.000.000</td>
+                </tr>
+                <tr>
+                    <td>Domestik</td>
+                    <td>Kecil, cerdas, mudah beradaptasi</td>
+                    <td>Rp 500.000</td>
+                </tr>
+                <tr>
+                    <td>Munchkin</td>
+                    <td>Kaki pendek, lucu</td>
+                    <td>Rp 1.500.000</td>
+                </tr>
+                <tr>
+                    <td>Persia</td>
+                    <td>Wajah datar, bulu panjang</td>
+                    <td>Rp 2.500.000</td>
+                </tr>
+                <tr>
+                    <td>Sphynx</td>
+                    <td>Tanpa bulu, kulit licin</td>
+                    <td>Rp 4.000.000</td>
+                </tr>
+            </table>
+        </article>
+
+        <!-- Form Input -->
+        <article id="form">
+            <h2>Berikan Pendapat Anda Tentang Kucing</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nama">Nama Anda:</label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="pendapat">Pendapat Anda:</label><br>
+                    <textarea id="pendapat" name="pendapat" rows="5" placeholder="Tuliskan pendapat Anda tentang kucing..." required></textarea><br>
+                </div>
+                <input type="submit" value="Kirim">
+            </form>
+        </article>
     </main>
 
     <footer>
-        <div><p>rifqia</p></div>
+        <p>&copy; 2024 - Artikel Tentang Kucing oleh Rifqia</p>
     </footer>
 </body>
 </html>
